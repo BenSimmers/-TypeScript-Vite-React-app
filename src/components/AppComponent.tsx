@@ -6,7 +6,7 @@ export type MyAppProps = {
 };
 
 export const AppComponent: React.FunctionComponent<MyAppProps> = ({ count, reactLogo, viteLogo, increment }) => (
-  <div className="bg-gray-100 text-center min-h-screen flex flex-col items-center justify-center">
+  <div>
     <div className="bg-white rounded-lg shadow-lg p-10 max-w-sm w-full space-y-2">
       <div className="flex flex-row justify-center">
         <img src={reactLogo} className="animate-spin-slow" alt="logo" width="200" height="200" />
